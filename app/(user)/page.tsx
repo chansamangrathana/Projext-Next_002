@@ -10,9 +10,9 @@ export default function HomePage() {
             Discover amazing products and services tailored just for you.
           </h1>
           <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-            Whether you're looking for fashion, electronics, home essentials, or
-            gifts, we've got you covered. Start exploring now and make your
-            online shopping experience unforgettable!
+            Whether you hare looking for fashion, electronics, home essentials, or
+            gifts, we have got you covered. Start exploring now and make your
+            online shopping experience unforgettable
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a

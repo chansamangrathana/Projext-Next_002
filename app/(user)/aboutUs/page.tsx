@@ -25,7 +25,7 @@ export default function About() {
         <div>
           <h2 className="text-5xl font-bold mt-20 text-purple-900">About Our Shop</h2>
           <p className="text-lg mt-10 leading-7 m-10 text-blue-900">
-            Welcome to [JINA], where style meets elegance! Step into a world of
+            Welcome to JINA, where style meets elegance! Step into a world of
             exquisite fashion, curated with care and passion. Our shop offers a
             delightful array of clothing and accessories, perfect for every
             occasion and every style.
@@ -34,15 +34,15 @@ export default function About() {
             From chic and sophisticated dresses to casual and comfortable
             everyday wear, we have something for everyone. Explore our
             collection of premium fabrics, flattering cuts, and trendy designs
-            that are sure to make you stand out in any crowd. At [JINA], we
+            that are sure to make you stand out in any crowd. At JINA, we
             believe that fashion is not just about what you wear, but how it
-            makes you feel. That's why our team of fashion experts is always on
+            makes you feel. That is why our team of fashion experts is always on
             hand to help you find the perfect outfit that not only looks great
-            but also makes you feel confident and beautiful. Whether you're
+            but also makes you feel confident and beautiful. Whether youre
             looking for the perfect outfit for a special occasion or simply want
-            to refresh your wardrobe, [JINA] is your ultimate destination
+            to refresh your wardrobe, JINA is your ultimate destination
             for all things fashion. Come visit us today and discover the joy of
-            shopping at [JINA ]!
+            shopping at JINA 
           </p>
         </div>
       </div>
