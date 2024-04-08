@@ -32,28 +32,28 @@ export default function Dashboard() {
     setProductDetail(products);
     setOpenModal(true);
   };
-  const handleDelete=(product:ProductT)=>{
-    const id=product.id
-    setLoading(true)
-    fetch(`${ENDPOINT}/api/products/${id}/`,{
-      method:'DELETE',
-      headers:{
-        'Content-Type':'application/json', 
-         'Authorization':`Bearer ${Token}`
-      }})
-  }
-  const handleEdit=(product:ProductT)=>{
-    const id=product.id
-    setLoading(true)
-    fetch(`${ENDPOINT}/api/products/${id}/`,{
-      method:'PUT',
-      headers:{
-        'Content-Type':'application/json', 
-         'Authorization':`Bearer ${Token}`,
-  }}).then(res=>res.json())
-     .then((data)=>setProducts(data))
-     .catch(err=>console.log(err))
-  }
+  // const handleDelete=(product:ProductT)=>{
+  //   const id=product.id
+  //   setLoading(true)
+  //   fetch(`${ENDPOINT}/api/products/${id}/`,{
+  //     method:'DELETE',
+  //     headers:{
+  //       'Content-Type':'application/json', 
+  //        'Authorization':`Bearer ${Token}`
+  //     }})
+  // }
+  // const handleEdit=(product:ProductT)=>{
+  //   const id=product.id
+  //   setLoading(true)
+  //   fetch(`${ENDPOINT}/api/products/${id}/`,{
+  //     method:'PUT',
+  //     headers:{
+  //       'Content-Type':'application/json', 
+  //        'Authorization':`Bearer ${Token}`,
+  // }}).then(res=>res.json())
+  //    .then((data)=>setProducts(data))
+  //    .catch(err=>console.log(err))
+  // }
   
   const columns: TableColumn<ProductT>[] = [
     {
@@ -86,10 +86,10 @@ export default function Dashboard() {
           >
             view
           </button>
-          <button onClick={()=>handleEdit(row)} className="text-white mx-2  bg-yellow-500 p-3 rounded-2xl">
+          <button  className="text-white mx-2  bg-yellow-500 p-3 rounded-2xl">
             Edit
           </button>
-          <button onClick={()=>handleDelete(row)} className="text-white mx-2  bg-red-700 p-3 rounded-2xl">
+          <button className="text-white mx-2  bg-red-700 p-3 rounded-2xl">
             Delete
           </button>
         </div>

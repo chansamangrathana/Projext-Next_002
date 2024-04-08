@@ -32,6 +32,9 @@ export default function NavbarComponent() {
           <NavbarLink href="/policy" className="text-white">
             Policy
           </NavbarLink>
+          <NavbarLink href="/dashboard" className="text-white">
+            Dashboard
+          </NavbarLink>
         </NavbarCollapse>
       </Navbar>
     </header>
